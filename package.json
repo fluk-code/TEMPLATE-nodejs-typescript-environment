@@ -1,0 +1,10 @@
+{
+  "name": "template-nodejs-typescript",
+  "version": "0.0.0",
+  "description": "this repository is a starter template for nodejs with typescript projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ferreira Felipe",
+  "license": "ISC"
+}
