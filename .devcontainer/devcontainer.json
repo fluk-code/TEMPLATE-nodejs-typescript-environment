@@ -38,17 +38,17 @@
   "customizations": {
     // Set *default* container specific settings.json values on container create.
     "vscode": {
-      // Add the IDs of extensions you want installed when the container is created.
-
       "settings": {
+        "window.title": "${remoteName}${separator}${profileName}${separator}",
         "terminal.integrated.defaultProfile.linux": "zsh",
+
+        "editor.tabSize": 2,
 
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
           "source.fixAll.eslint": true
         },
-        "editor.inlayHints.enabled": "offUnlessPressed",
 
         "[jsonc]": {
           "editor.quickSuggestions": {
@@ -57,6 +57,7 @@
           "editor.suggest.insertMode": "replace"
         },
 
+        "editor.inlayHints.enabled": "offUnlessPressed",
         "[typescript]": {},
         "typescript.updateImportsOnFileMove.enabled": "always",
         "typescript.inlayHints.enumMemberValues.enabled": true,
@@ -64,7 +65,6 @@
         "typescript.inlayHints.parameterTypes.enabled": true,
         "typescript.inlayHints.variableTypes.enabled": true,
         "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-
         "[javascript]": {},
         "javascript.updateImportsOnFileMove.enabled": "always",
         "javascript.inlayHints.enumMemberValues.enabled": true,
@@ -73,17 +73,18 @@
         "javascript.inlayHints.parameterTypes.enabled": true
       },
 
+      // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-		"streetsidesoftware.code-spell-checker",
-		"kisstkondoros.vscode-codemetrics",
-		"ms-azuretools.vscode-docker",
-		"EditorConfig.EditorConfig",
-		"dbaeumer.vscode-eslint",
-		"GitHub.vscode-pull-request-github",
-		"eamodio.gitlens",
-		"esbenp.prettier-vscode",
-		"SonarSource.sonarlint-vscode"
-	]
+        "streetsidesoftware.code-spell-checker",
+        "kisstkondoros.vscode-codemetrics",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "GitHub.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "firsttris.vscode-jest-runner",
+        "SonarSource.sonarlint-vscode",
+        "esbenp.prettier-vscode"
+      ]
     }
   }
 
