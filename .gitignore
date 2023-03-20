@@ -1,2 +1,5 @@
+# Global
+node_modules/
+
 #Remote Container
 .docker/zsh/history/
