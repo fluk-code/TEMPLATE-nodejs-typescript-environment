@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: nodejs-typescript-environment
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "8229:9229"
