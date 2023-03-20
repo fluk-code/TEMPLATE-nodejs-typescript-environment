@@ -13,7 +13,6 @@ _Descrever os testes que você executou para verificar suas alterações._
 - [ ] Unit Test
 - [ ] Integration Test
 - [ ] E2E Test
-      D
 
 #### Observações:
 

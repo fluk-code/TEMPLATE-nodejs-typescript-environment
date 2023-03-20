@@ -1,5 +1,5 @@
 {
-  "name": "template-nodejs-typescript",
+  "name": "nodejs-typescript-environment",
   "version": "0.0.0",
   "description": "this repository is a starter template for nodejs with typescript projects",
   "scripts": {
